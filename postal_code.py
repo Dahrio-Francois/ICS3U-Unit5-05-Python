@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-# Created by : Andrew-Ten-Den
-# Created on : May 2022
+# Created by: Dahrio Francois
+# Created on: June 2022
 # This program prints out your full address card
 
 
@@ -22,6 +22,7 @@ def code(
     code = (
         "\n"
         + code
+        + "\n"
         + street_number
         + " "
         + street_name
@@ -29,7 +30,7 @@ def code(
         + city
         + " "
         + province
-        + " "
+        + "  "
         + postal_code
     )
 
